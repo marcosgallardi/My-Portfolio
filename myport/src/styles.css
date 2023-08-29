@@ -1,0 +1,33 @@
+.bg-react {
+  background-image: url("../src/assets/bg-react.jpg");
+  background-size: cover;
+}
+
+.bg-express {
+  background-image: url("../src/assets/380534.png");
+  background-size: cover;
+}
+.bg-js{
+  background-image: url("../src/assets/descarga.jpeg");
+  background-size: cover;
+}
+.imagereact{
+ display: flex;
+ align-items: center;
+}
+
+.spin{
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

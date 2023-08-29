@@ -1,0 +1,12 @@
+.imagen {
+  top: 30%;
+  left: 10%;
+  transform: translate(10%, 20%);
+}
+
+.imagen:hover {
+  transform: translate(10%, 20%);
+  height: 550px;
+  width: auto;
+}
+
